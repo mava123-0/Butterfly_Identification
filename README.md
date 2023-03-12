@@ -14,6 +14,7 @@ The dataset features 75 different classes of Butterflies. The dataset contains a
 ### Data Preprocessing
 1. Images in 'Train' subfolder was separated into respective subfolders based on the butterfly class using label feature from 'Training_set.csv'.
 2. A validation set was created by sampling 5 images from each butterfly class.
+3. Images rescaled to the range of 0 to 1 (each pixel value was divided by 255).
 
 ### Model Training
 1. Train image values were re-scaled to the range of 0 to 1 (each pixel value was divided by 255).
